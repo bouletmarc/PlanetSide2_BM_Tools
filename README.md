@@ -20,17 +20,17 @@ OR it can modify the .pack contents of the game, to play with a modded game.
 
 # WHERE TO PLACE MODS :
 
-- Modded Assets : 'Files/Modded_Assets/
-- Original Assets : 'Files/Original_Assets/
-- Pack Assets : 'Files/Pack_Assets/
+- Modded Assets : 'Files/Modded_Assets/'
+- Original Assets : 'Files/Original_Assets/'
+- Pack Assets : 'Files/Pack_Assets/'
 
 # EXEMPLE OF MODS FOLDER :
 
-- Files/Modded_Assets/Assets_238/HUDIndicatorSettings.txt		(Modified File)
-- Files/Modded_Assets/Assets_238/XXX_Any_Other_Files 			(Unmodified/Modified Files)
-- Files/Original_Assets/Assets_238/HUDIndicatorSettings.txt	(Unmodified File)
-- Files/Original_Assets/Assets_238/XXX_Any_Other_Files 		(Unmodified Files)
-- Files/Pack_Assets/Assets_238.pack							(Unmodified File)
+- 'Files/Modded_Assets/Assets_238/HUDIndicatorSettings.txt'		(Modified File)
+- 'Files/Modded_Assets/Assets_238/XXX_Any_Other_Files' 			(Unmodified/Modified Files)
+- 'Files/Original_Assets/Assets_238/HUDIndicatorSettings.txt'	(Unmodified File)
+- 'Files/Original_Assets/Assets_238/XXX_Any_Other_Files' 		(Unmodified Files)
+- 'Files/Pack_Assets/Assets_238.pack'							(Unmodified File)
 
 # WHY I HAVE CRITICAL ERROR :
 
