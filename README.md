@@ -1,8 +1,10 @@
-# PLANETSIDE 2 - BM TOOLS - BY BOULETMARC
-
+# PLANETSIDE 2 - BM TOOLS
 
 This tool can be used to fix LaunchPad.exe error of PlanetSide2
-OR it can modify the .pack contents of the game, to play with a modded game.
+
+OR 
+
+it can modify the .pack contents of the game, to play with a modded game.
 
 # Download : [HERE][]
 
