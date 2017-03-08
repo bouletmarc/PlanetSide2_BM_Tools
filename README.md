@@ -48,4 +48,9 @@ it can modify the .pack contents of the game, to play with a modded game.
 
 - USE AT YOUR OWN RISK !!!
 
+# Donations :
+
+You can donate to me using [This Link][].
+
+[This Link]: <https://www.paypal.me/bouletmarc>
 [HERE]: <https://github.com/bouletmarc/PlanetSide2_BM_Tools/archive/master.zip>
