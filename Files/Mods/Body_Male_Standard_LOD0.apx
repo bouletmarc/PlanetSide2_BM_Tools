@@ -1,0 +1,288 @@
+<!DOCTYPE NxParameters>
+<NxParameters numObjects="1" version="1.0" >
+<value name="" type="Ref" className="DynamicSystemAssetParam" version="0.0" checksum="0x79cc9b72 0x23d395ab 0x14f73018 0x114f76ca">
+  <struct name="">
+    <value name="Name" type="String">DynamicSystemAsset.1</value>
+    <value name="ModelUserString" null="1" type="String"></value>
+    <value name="ModelType" type="Ref" included="1" className="ModelCollision" version="0.0" checksum="0xb78d9d51 0x10d18298 0x25d148c9 0xc76a8260">    
+      <struct name="">
+      </struct>
+    </value>
+    <value name="InterActorCollision" type="Bool">true</value>
+    <value name="PositionSolverIterationCount" type="U32">4</value>
+    <value name="VelocitySolverIterationCount" type="U32">4</value>
+    <value name="LinearDamping" type="F32">0.100000001</value>
+    <value name="AngularDamping" type="F32">0.100000001</value>
+    <value name="JointSpring" type="F32">0</value>
+    <value name="JointDamping" type="F32">0</value>
+    <value name="JointRestitution" type="F32">0</value>
+    <value name="JointContactDistance" type="F32">0.0500000007</value>
+    <value name="RootBone" type="Transform">0 0 0 1  0 0 0 </value>
+    <array name="DynamicSystemSkeleton" size="9" type="Struct">
+      <struct>
+        <value name="Name" type="String">R_hip</value>
+        <value name="ParentBone" type="String">NONE</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.157845005</value>
+            <value name="Height" type="F32">0.178732991</value>
+            <value name="LocalPose" type="Transform">-0.558539033 -0.00261127949 -0.0154881179 0.829329491  -0.199124098 0.00159104168 0.00731864572 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">0.466432661 0.413949072 0.523023427 0.58097595  -0.105457 0.9499771 0.0194051228 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">R_knee</value>
+        <value name="ParentBone" type="String">R_hip</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.139090851</value>
+            <value name="Height" type="F32">0.33138752</value>
+            <value name="LocalPose" type="Transform">0.0277421772 -0.0102893366 0.999203682 0.0267705023  -0.234532177 -0.00689593703 -0.0118689388 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">0.517004788 0.375957489 0.553555846 0.533795655  -0.153896004 0.546431899 0.0172797795 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">L_hip</value>
+        <value name="ParentBone" type="String">NONE</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.145556599</value>
+            <value name="Height" type="F32">0.246409804</value>
+            <value name="LocalPose" type="Transform">0.0410340428 0.687141418 -0.725288033 -0.0104986429  0.187757254 -0.00403016806 -0.00458553433 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">0.584582925 -0.516509831 0.411255509 -0.471538812  0.10545709 0.94997716 0.0194051117 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">L_knee</value>
+        <value name="ParentBone" type="String">L_hip</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.13840647</value>
+            <value name="Height" type="F32">0.335909575</value>
+            <value name="LocalPose" type="Transform">0.0260393023 0.689783037 0.723515213 -0.00687247515  0.233403891 0.0156112239 0.00891715288 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">-0.537781358 0.547333658 -0.372683287 0.521846533  0.153896332 0.546432376 0.0172798857 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">spineLower</value>
+        <value name="ParentBone" type="String">NONE</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.180875272</value>
+            <value name="Height" type="F32">0.180875272</value>
+            <value name="LocalPose" type="Transform">-0.0323130488 -0.994738162 0.0966654569 0.0103754364  0.0867257118 0.00432360172 -0.0015591383 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">0.497839868 0.502150774 0.497839808 0.502150714  -4.693376e-008 1.05420911 0.0324075036 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">spineUpper</value>
+        <value name="ParentBone" type="String">spineLower</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.176361129</value>
+            <value name="Height" type="F32">0.176361129</value>
+            <value name="LocalPose" type="Transform">0.705054402 -0.0271401107 0.708239913 0.023627609  0.0824058056 -0.0225024819 0.00579565763 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">0.475010127 0.523798883 0.475010097 0.523798823  1.53913874e-007 1.32221127 0.0195497815 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">L_shoulder</value>
+        <value name="ParentBone" type="String">spineUpper</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.088051796</value>
+            <value name="Height" type="F32">0.153035939</value>
+            <value name="LocalPose" type="Transform">0.616427898 0.00842136145 0.035222441 -0.786578298  0.122297049 -0.00252890587 0.000668406487 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">-0.676229298 0.321210951 -0.265690088 0.607409716  0.192060858 1.48027146 -0.0360523723 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">R_shoulder</value>
+        <value name="ParentBone" type="String">spineUpper</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.0933225751</value>
+            <value name="Height" type="F32">0.130988121</value>
+            <value name="LocalPose" type="Transform">-0.0208447874 -0.996433377 0.0813813806 0.00793807209  -0.128881812 0.01454027 0.0116379261 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">0.656477988 0.212939456 0.325017363 0.646573365  -0.192061022 1.48026717 -0.0360523053 </value>
+      </struct>
+      <struct>
+        <value name="Name" type="String">head</value>
+        <value name="ParentBone" type="String">spineUpper</value>
+        <value name="BoneUserString" null="1" type="String"></value>
+        <value name="Collides" type="Bool">true</value>
+        <value name="Mass" type="F32">100</value>
+        <value name="CenterOfMass" type="Vec3">0 0 0</value>
+        <value name="SimulationFilterData" type="String">default</value>
+        <value name="QueryFilterData" type="String">default</value>
+        <value name="Chassis" type="Bool">false</value>
+        <value name="Wheel" type="Ref" included="1" className="NoWheel" version="0.0" checksum="0xcecd6789 0xcc22740c 0x885b3495 0xbfd170d8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="PhysicsMaterialName" type="String">defaultMaterial</value>
+        <value name="Emitter" null="1" type="String"></value>
+        <value name="CollisionShape" type="Ref" included="1" className="DynamicSystemCapsuleShapeParams" version="0.0" checksum="0x735405b 0x2aeacae2 0x9b1c33e8 0x6a1246cd">        
+          <struct name="">
+            <value name="Radius" type="F32">0.3</value>
+            <value name="Height" type="F32">0.3</value>
+            <value name="LocalPose" type="Transform">-0.12012583 -0.690461993 0.703822374 0.116045147  0.0507503748 0.00953489542 0.000222980976 </value>
+          </struct>
+        </value>
+        <value name="Joint" type="Ref" included="1" className="JointNone" version="0.0" checksum="0x52aa6163 0x2dd8c1c1 0x7f50caa9 0x1f4df8">        
+          <struct name="">
+          </struct>
+        </value>
+        <value name="Transform" type="Transform">0.50610131 0.493823349 0.50610131 0.49382323  4.80476103e-010 1.64647269 0.00117840432 </value>
+      </struct>
+    </array>
+    <array name="Joints" size="0" type="Ref"></array>
+    <array name="BodyPairCollisions" size="0" type="Struct"></array>
+  </struct>
+</value>
+</NxParameters>
